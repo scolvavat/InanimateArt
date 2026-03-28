@@ -18,7 +18,7 @@ end result is more of a **warp/morph** than a filter
 
 ---
 
-## how it works (high level)
+## how it works
 
 - take source + target image  
 - resize both to a fixed sim grid (ex: 64x64)  
@@ -41,7 +41,7 @@ so even though everything shifts around, the image still looks coherent
 
 ---
 
-## rendering (gpu side)
+## rendering 
 
 - runs a Metal compute shader per pixel  
 - finds nearest seed (Voronoi-style)  
@@ -52,7 +52,7 @@ this is why it looks like a warp instead of noise
 
 ---
 
-## simulation (cpu side)
+## simulation 
 
 - handles seed movement + matching  
 - uses brightness bins (dark → dark, light → light)  
