@@ -2,8 +2,7 @@
 
 **Swift Student Challenge 2026 submission**
 
-turns any image into another by moving regions instead of blending pixels
-
+For the 2026 SSC I wanted to make art more accessible to muslims. In cultures like Islam art containing living things is not permitted so the goal of this app is to turn any given image into a mosaic art to be more appropriate for the culture while keeping the original photo intact (no deleting pixels or creating new ones)
 ---
 
 ## what this is
